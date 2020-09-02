@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/store/reducer/dist/Auth.test.dev.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\..\index.html">All files</a> / <a href="index.html">src/store/reducer/dist</a> Auth.test.dev.js
+    </h1>
+    <div class='clearfix'>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">"use strict";
+&nbsp;
+function <span class="fstat-no" title="function not covered" >_typeof(</span>obj) {<span class="cstat-no" title="statement not covered" > if (typeof Symbol === "function" &amp;&amp; typeof Symbol.iterator === "symbol") <span class="cstat-no" title="statement not covered" >{ _typeof = functio<span class="fstat-no" title="function not covered" >n _typeo</span>f(obj)<span class="cstat-no" title="statement not covered" > { return typeof ob</span>j;</span> }; } e<span class="cstat-no" title="statement not covered" >lse { _typeof = fun<span class="fstat-no" title="function not covered" >ction _t</span>ypeof(<span class="cstat-no" title="statement not covered" >obj) { return obj &amp;&amp; typeof Symbol === "function" &amp;&amp; obj.constructor === Symbol &amp;&amp; obj !== Symbol.prototype ? "symbol" : typeo</span>f <span class="cstat-no" title="statement not covered" ></span>o</span>bj; }; } return _typ</span>eof(obj); }
+&nbsp;
+var _Auth = <span class="cstat-no" title="statement not covered" >_interopRequireDefault(require("./Auth"));</span>
+&nbsp;
+var actionTypes = <span class="cstat-no" title="statement not covered" >_interopRequireWildcard(require("../action/actionType"));</span>
+&nbsp;
+function <span class="fstat-no" title="function not covered" >_getRequireWildcardCache(</span>) {<span class="cstat-no" title="statement not covered" > if (typeof WeakMap !== "function")<span class="cstat-no" title="statement not covered" > return null;</span></span> var cache <span class="cstat-no" title="statement not covered" >= new WeakMap(<span class="cstat-no" title="statement not covered" ></span>); _getRequireWildcardCache = functi<span class="fstat-no" title="function not covered" >on _getRequireWildcardCac</span>he(<span class="cstat-no" title="statement not covered" >) { return cac</span>h<span class="cstat-no" title="statement not covered" >e</span>; }; return c</span>ache; }
+&nbsp;
+function <span class="fstat-no" title="function not covered" >_interopRequireWildcard(</span>obj) {<span class="cstat-no" title="statement not covered" > if (obj &amp;&amp; obj.__esModule) <span class="cstat-no" title="statement not covered" >{ return obj<span class="cstat-no" title="statement not covered" ></span>;</span> } if (obj === null || _typeof(obj) !== "object" &amp;&amp; typeof obj !== "function<span class="cstat-no" title="statement not covered" >") { return { "default": ob</span>j</span> }; } var c<span class="cstat-no" title="statement not covered" >ache = _getRequireWildcardC<span class="cstat-no" title="statement not covered" ></span>ache(); if (cache &amp;&amp; cache.has<span class="cstat-no" title="statement not covered" >(obj)) { return cache.g</span>e</span>t(obj); } va<span class="cstat-no" title="statement not covered" >r n</span>ewObj = {}; var hasPropertyD<span class="cstat-no" title="statement not covered" >escriptor = Object.defineProperty &amp;&amp; Object.getOwnPropert<span class="cstat-no" title="statement not covered" ></span>yDescriptor; for (var <span class="cstat-no" title="statement not covered" >key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)<span class="cstat-no" title="statement not covered" >) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(ob<span class="cstat-no" title="statement not covered" ></span>j, key) : null; if (desc &amp;&amp; (desc.get<span class="cstat-no" title="statement not covered" > || desc.set)) { Object.defineProperty(new</span>Obj, ke<span class="cstat-no" title="statement not covered" >y, desc); } else { newOb</span>j</span>[<span class="cstat-no" title="statement not covered" ></span>k</span>ey] = obj[key]; } } } n<span class="cstat-no" title="statement not covered" >e</span>wObj["defau<span class="cstat-no" title="statement not covered" >lt"] = obj; if (cache) {<span class="cstat-no" title="statement not covered" ></span> </span>cache.set(obj,</span> newObj); } return newObj; }
+&nbsp;
+function <span class="fstat-no" title="function not covered" >_interopRequireDefault(</span>obj) {<span class="cstat-no" title="statement not covered" > return obj &amp;&amp; obj.__esModule ? obj : { "default": obj };</span> }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >describe("auth reducer", <span class="fstat-no" title="function not covered" >fu</span>nction () {</span>
+<span class="cstat-no" title="statement not covered" >  it("should return the initial state", <span class="fstat-no" title="function not covered" >fu</span>nction () {</span>
+<span class="cstat-no" title="statement not covered" >    expect((0, _Auth["default"])(undefined, {})).toEqual({</span>
+      token: null,
+      id: null,
+      firstName: null,
+      userType: null,
+      error: null,
+      loading: false,
+      expiredIn: null
+    });
+  });
+<span class="cstat-no" title="statement not covered" >  it("Starting a authentication", <span class="fstat-no" title="function not covered" >fu</span>nction () {</span>
+<span class="cstat-no" title="statement not covered" >    expect((0, _Auth["default"])({</span>
+      error: null,
+      loading: false
+    }, {
+      type: actionTypes.AUTH_START,
+      error: null,
+      loading: true
+    })).toEqual({
+      error: null,
+      loading: true
+    });
+  });
+<span class="cstat-no" title="statement not covered" >  it("should store the token upon login", <span class="fstat-no" title="function not covered" >fu</span>nction () {</span>
+<span class="cstat-no" title="statement not covered" >    expect((0, _Auth["default"])({</span>
+      token: null,
+      id: null,
+      firstName: null,
+      userType: null,
+      error: null,
+      loading: false,
+      expiredIn: null
+    }, {
+      type: actionTypes.AUTH_SUCCESS,
+      token: "some-token",
+      id: "some-user-id",
+      firstName: "name",
+      userType: "type",
+      expiredIn: 3600
+    })).toEqual({
+      token: "some-token",
+      id: "some-user-id",
+      firstName: "name",
+      userType: "type",
+      error: null,
+      loading: false,
+      expiredIn: 3600
+    });
+  });
+<span class="cstat-no" title="statement not covered" >  it("Should error facing in authentication", <span class="fstat-no" title="function not covered" >fu</span>nction () {</span>
+<span class="cstat-no" title="statement not covered" >    expect((0, _Auth["default"])({</span>
+      error: null,
+      loading: false
+    }, {
+      type: actionTypes.AUTH_FAIL,
+      error: "error",
+      loading: false
+    })).toEqual({
+      error: "error",
+      loading: false
+    });
+  });
+<span class="cstat-no" title="statement not covered" >  it("should store the token upon Google login", <span class="fstat-no" title="function not covered" >fu</span>nction () {</span>
+<span class="cstat-no" title="statement not covered" >    expect((0, _Auth["default"])({</span>
+      token: null,
+      id: null,
+      firstName: null,
+      userType: null,
+      error: null,
+      loading: false,
+      expiredIn: null
+    }, {
+      type: actionTypes.GOOGLE_LOGIN_DETAIL_ACTION,
+      token: "token",
+      firstName: "firstName",
+      userType: "userType"
+    })).toEqual({
+      token: "token",
+      firstName: "firstName",
+      userType: "userType"
+    });
+  });
+<span class="cstat-no" title="statement not covered" >  it("should be Logout from application", <span class="fstat-no" title="function not covered" >fu</span>nction () {</span>
+<span class="cstat-no" title="statement not covered" >    expect((0, _Auth["default"])({</span>
+      token: null,
+      id: null
+    }, {
+      type: actionTypes.AUTH_LOGOUT,
+      token: null,
+      id: null
+    })).toEqual({
+      token: null,
+      id: null
+    });
+  });
+});</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Aug 26 2020 13:12:23 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\..\sorter.js"></script>
+</body>
+</html>

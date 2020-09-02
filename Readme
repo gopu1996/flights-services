@@ -1,0 +1,31 @@
+For Airline Staff:  "email": "gopu@gmail.com",
+                    "password": "Gopu@123",
+                    "userType": " Airline Staff",
+For Admin:          "email": "ayush@gmail.com",
+                    "password": "ayush@123",
+                    "userType": "Admin",   
+
+Login with facebook  for Admin and gmail for Airline Staff
+
+For starting json server : json-server --watch db.json --port 3004
+
+I fix the bug you write into the excel sheet.
+
+I implemented sass following of  7-1 Sass Architecture as follow.
+
+I am implemented register service worker , pwd and also if you disconnect your wifi or turn off your
+hotspot it navigate to offline.html.
+
+I wrote 130 testcase with in 18 test suites
+
+For webpack customized i eject the config package where i can add own rules on it.
+
+several things i used fab icons so that internet is required.
+
+Note: I think you forgot to add bonus number into total number i got.
+
+Note: While selecting seat make sure json server shouldn't be broke.
+
+
+
+

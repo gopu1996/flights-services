@@ -7,9 +7,10 @@
       "phone": "8540808934",
       "email": "gopu@gmail.com",
       "password": "Gopu@123",
-      "type": "airlineStaff",
+      "userType": " Airline Staff",
       "token": "Aswres3466reh4hhGDFsfRHD4fv6HBDMgmd5sn55Hnd",
-      "expiredIn": 3600
+      "expiredIn": 3600,
+      "error": "server not working"
     },
     {
       "id": 2,
@@ -18,9 +19,10 @@
       "phone": "8746528570",
       "email": "ayush@gmail.com",
       "password": "ayush@123",
-      "type": "admin",
+      "userType": "Admin",
       "token": "SDFGHJKJEH4U9276gajkffjjtf578DFBJ009fkis664ikm",
-      "expiredIn": 3600
+      "expiredIn": 3600,
+      "error": "server not working"
     },
     {
       "id": 3,
@@ -29,9 +31,10 @@
       "phone": "8050774233",
       "email": "sumit@gmail.com",
       "password": "sumit@22!",
-      "type": "airlineStaff",
+      "userType": " Airline Staff",
       "token": "Aswres3466reh4hhGDFsfRHD4fv6HBDMgmehjdjj3i282552673nn",
-      "expiredIn": 3600
+      "expiredIn": 3600,
+      "error": "server not working"
     },
     {
       "id": 4,
@@ -40,9 +43,10 @@
       "phone": "9679372940",
       "email": "jmohan@gmail.com",
       "password": "November",
-      "type": "airlineStaff",
+      "userType": " Airline Staff",
       "token": "Aswres3466reh4hhGDFsfRHD4fv6HBDMgmehjdjj3dhhsjke5664",
-      "expiredIn": 3600
+      "expiredIn": 3600,
+      "error": "server not working"
     }
   ],
   "PassengerDetailsJson": [
@@ -51,102 +55,84 @@
       "paxFlightId": "111",
       "first_name": "Cristiano",
       "last_name": "Ronaldo",
-      "date_of_birth": "12-Jan-1981",
+      "date_of_birth": "12/12/1991",
       "gender": "Male",
       "email_id": "cris@gmail.com",
       "mobile_no": "9835472634",
       "country": "In",
-      "seat_no": "1D",
+      "seat_no": "2C",
       "travel_document": {},
       "wheelChair": "No",
       "infant": "YES",
-      "status": "",
+      "status": "AC",
       "params": {},
-      "special_meal": ["Samosa"],
-      "ancillary": ["ExtraLegSpace", "WindowSeat"],
-      "passport": "",
-      "address": "Patna",
-      "flightShop": []
+      "special_meal": [
+        "Samosa",
+        "potatoes",
+        "boiled rice",
+        "egg white",
+        "cottage cheese"
+      ],
+      "ancillary": [
+        "ExtraLegSpace",
+        "Extra Language"
+      ],
+      "passport": "WEFS123432",
+      "address": "madire Portgual",
+      "flightShop": [
+        "Watches",
+        "Bags"
+      ]
     },
     {
       "id": 2,
       "paxFlightId": "111",
       "first_name": "Leonel",
       "last_name": "Messi",
-      "date_of_birth": "12-Jan-1980",
+      "date_of_birth": "12/01/1991",
       "gender": "Male",
       "email_id": "messi@gmail.com",
       "mobile_no": "6789876545",
       "country": "Canada",
-      "seat_no": "",
+      "seat_no": "1C",
       "travel_document": {},
       "wheelChair": "YES",
       "infant": "No",
-      "status": "NC",
-      "special_meal": [],
-      "ancillary": [],
-      "passport": "",
-      "address": "",
-      "flightShop": []
-    },
-    {
-      "id": 9,
-      "paxFlightId": 222,
-      "first_name": "Recardo",
-      "last_name": "kaka",
-      "date_of_birth": "12-Jan-1990",
-      "gender": "male",
-      "email_id": "kaka@gmail.com",
-      "mobile_no": "9745272618",
-      "country": "Brazil",
-      "seat_no": "2C",
-      "travel_document": {},
-      "wheelChair": "No",
-      "infant": "No",
       "status": "AC",
-      "special_meal": [],
-      "ancillary": [],
-      "passport": "pas331",
-      "address": "House no 2",
-      "flightShop": []
-    },
-    {
-      "paxFlightId": "333",
-      "first_name": "Shubendu",
-      "last_name": "Rakshit",
-      "date_of_birth": "12-Jan-1991",
-      "gender": "Male",
-      "email_id": "halwai@gmail.com",
-      "mobile_no": "8903457654",
-      "country": "CAN",
-      "seat_no": "3F",
-      "travel_document": "{}",
-      "wheelChair": "No",
-      "infant": "No",
-      "status": "AC",
-      "id": 29,
-      "special_meal": [],
-      "ancillary": [],
-      "passport": "9890",
-      "address": "mumbai",
-      "flightShop": []
+      "special_meal": [
+        "egg white",
+        "cottage cheese"
+      ],
+      "ancillary": [
+        "ExtraLegSpace",
+        "MiddleSeatxx"
+      ],
+      "passport": "WEFS123432",
+      "address": "argentina",
+      "flightShop": [
+        "slipper"
+      ]
     },
     {
       "paxFlightId": "111",
       "first_name": "Akash",
       "last_name": "Trivedi",
-      "date_of_birth": "19-Aug-1994",
+      "date_of_birth": "19/10/1994",
       "gender": "Male",
       "email_id": "akki@gmail.com",
       "mobile_no": "756756754",
-      "seat_no": "2A",
+      "seat_no": "",
       "travel_document": "{}",
       "wheelChair": "No",
       "infant": "No",
-      "status": "AC",
-      "special_meal": ["Sweets", "pawBhaji", "Samosa"],
-      "ancillary": ["MiddleSeatxx", "WindowSeat", "SSR"],
-      "passport": "pass",
+      "status": "NC",
+      "special_meal": [],
+      "ancillary": [
+        "MiddleSeatxx",
+        "WindowSeat",
+        "SSR"
+      ],
+      "passport": "",
       "id": 30,
       "country": "pass",
       "address": "",
@@ -154,128 +140,61 @@
     },
     {
       "paxFlightId": "222",
-      "first_name": "Vibhav",
-      "last_name": "kumar",
-      "date_of_birth": "12-Jan-1991",
-      "gender": "other",
-      "email_id": "vibhav@gmail.com",
-      "mobile_no": "68465289346",
-      "seat_no": "4D",
-      "travel_document": "{}",
-      "wheelChair": "No",
-      "infant": "YES",
-      "status": "AC",
-      "special_meal": [],
-      "ancillary": [],
-      "passport": "",
-      "id": 31,
-      "address": "",
-      "flightShop": []
-    },
-    {
-      "paxFlightId": "222",
       "first_name": "himmat",
       "last_name": "singh",
-      "date_of_birth": "18-may-1994",
+      "date_of_birth": "18/04/1994",
       "gender": "Female",
       "email_id": "sdfgh@gmail.com",
       "mobile_no": "6545u6566",
-      "seat_no": "3D",
+      "seat_no": "3C",
       "travel_document": "{}",
       "wheelChair": "No",
       "infant": "YES",
       "status": "AC",
-      "special_meal": ["Tea"],
+      "special_meal": [
+        "boiled rice",
+        "egg white"
+      ],
       "ancillary": [],
-      "passport": "",
+      "passport": "dfgh",
       "id": 32,
       "address": "",
-      "flightShop": []
+      "flightShop": [
+        "slipper"
+      ]
     },
     {
       "paxFlightId": "222",
       "first_name": "Shubham",
       "last_name": "sharma",
-      "date_of_birth": "",
+      "date_of_birth": "18/12/1994",
       "gender": "Male",
       "email_id": "shubham.kumari@gmail.com",
       "mobile_no": "904937593",
-      "seat_no": "1B",
+      "seat_no": "3D",
       "travel_document": "{}",
       "wheelChair": "No",
       "infant": "YES",
       "status": "AC",
-      "special_meal": [],
-      "ancillary": ["WindowSeat"],
+      "special_meal": [
+        "boiled rice",
+        "Burgers"
+      ],
+      "ancillary": [
+        "WindowSeat"
+      ],
       "passport": "qwerds",
-      "id": 33,
+      "id": 331,
       "address": "",
-      "flightShop": ["Bags"]
-    },
-    {
-      "paxFlightId": "111",
-      "first_name": "Raja",
-      "last_name": "Kumar",
-      "date_of_birth": "19-Aug-1984",
-      "address": "",
-      "email_id": "raja@gmail.com",
-      "mobile_no": "90856907576",
-      "seat_no": "5D",
-      "travel_document": "{}",
-      "wheelChair": "YES",
-      "infant": "YES",
-      "status": "AC",
-      "special_meal": ["Sweets", "pawBhaji"],
-      "ancillary": ["WindowSeat"],
-      "passport": "ewuriy38249rh",
-      "id": 34,
-      "flightShop": []
-    },
-    {
-      "paxFlightId": "333",
-      "first_name": "Rakesh",
-      "last_name": "singh",
-      "date_of_birth": "12-Jan-1991",
-      "address": "",
-      "email_id": "rakesh@outlook.in",
-      "mobile_no": "9847589",
-      "gender": "female",
-      "seat_no": "6F",
-      "travel_document": "{}",
-      "wheelChair": "YES",
-      "infant": "YES",
-      "status": "AC",
-      "special_meal": ["Paneer masala in multigrain bread"],
-      "ancillary": [],
-      "passport": "",
-      "id": 38,
-      "flightShop": []
-    },
-    {
-      "paxFlightId": "333",
-      "first_name": "Sujeet",
-      "last_name": "singh",
-      "date_of_birth": "18-De0-1994",
-      "address": "Bihar",
-      "email_id": "sujeet@gmail.com",
-      "mobile_no": "",
-      "gender": "Male",
-      "seat_no": "5A",
-      "travel_document": "{}",
-      "wheelChair": "NO",
-      "infant": "NO",
-      "status": "AC",
-      "special_meal": [],
-      "ancillary": [],
-      "flightShop": [],
-      "passport": "9857645284",
-      "id": 39
+      "flightShop": [
+        "Bags"
+      ]
     },
     {
       "paxFlightId": "333",
       "first_name": "clerk",
       "last_name": "kent",
-      "date_of_birth": "12-Jan-1992",
+      "date_of_birth": "12/01/1992",
       "address": "USA",
       "email_id": "superman@gmail.com",
       "mobile_no": "9709864680",
@@ -285,31 +204,381 @@
       "wheelChair": "NO",
       "infant": "NO",
       "status": "NC",
-      "special_meal": ["chaats"],
+      "special_meal": [],
       "ancillary": [],
       "flightShop": [],
       "passport": "",
       "id": 40
     },
+    [
+      {
+        "id": 1,
+        "paxFlightId": "111",
+        "first_name": "Cristiano",
+        "last_name": "Ronaldo",
+        "date_of_birth": "12/02/1991",
+        "gender": "Male",
+        "email_id": "cris@gmail.com",
+        "mobile_no": "9835472634",
+        "country": "In",
+        "seat_no": "",
+        "travel_document": {},
+        "wheelChair": "No",
+        "infant": "YES",
+        "status": "NC",
+        "params": {},
+        "special_meal": [
+          "Samosa",
+          "potatoes",
+          "wholegrain bread",
+          "boiled rice"
+        ],
+        "ancillary": [
+          "ExtraLegSpace",
+          "WindowSeat"
+        ],
+        "passport": "",
+        "address": "",
+        "flightShop": [
+          "Watches",
+          "Bags"
+        ]
+      },
+      {
+        "id": 2,
+        "paxFlightId": "111",
+        "first_name": "Leonel",
+        "last_name": "Messi",
+        "date_of_birth": "12/01/1980",
+        "gender": "Male",
+        "email_id": "messi@gmail.com",
+        "mobile_no": "6789876545",
+        "country": "Canada",
+        "seat_no": "3C",
+        "travel_document": {},
+        "wheelChair": "YES",
+        "infant": "No",
+        "status": "AC",
+        "special_meal": [
+          "egg white"
+        ],
+        "ancillary": [
+          "ExtraLegSpace",
+          "MiddleSeatxx"
+        ],
+        "passport": "EPR203945",
+        "address": "",
+        "flightShop": [
+          "slipper"
+        ]
+      },
+      {
+        "paxFlightId": "111",
+        "first_name": "Akash",
+        "last_name": "Trivedi",
+        "date_of_birth": "19/10/1994",
+        "gender": "Male",
+        "email_id": "akki@gmail.com",
+        "mobile_no": "756756754",
+        "seat_no": "4C",
+        "travel_document": "{}",
+        "wheelChair": "No",
+        "infant": "No",
+        "status": "AC",
+        "special_meal": [
+          "potatoes"
+        ],
+        "ancillary": [
+          "MiddleSeatxx",
+          "WindowSeat",
+          "SSR"
+        ],
+        "passport": "pass",
+        "id": 30,
+        "country": "pass",
+        "address": "",
+        "flightShop": []
+      },
+      {
+        "paxFlightId": "111",
+        "first_name": "Raja",
+        "last_name": "Kumar",
+        "date_of_birth": "19/08/1984",
+        "address": "",
+        "email_id": "raja@gmail.com",
+        "mobile_no": "90856907576",
+        "seat_no": "3D",
+        "travel_document": "{}",
+        "wheelChair": "No",
+        "infant": "YES",
+        "status": "AC",
+        "special_meal": [
+          "wholegrain bread",
+          "cottage cheese"
+        ],
+        "ancillary": [
+          "WindowSeat"
+        ],
+        "passport": "ewuriy38249rh",
+        "id": 34,
+        "flightShop": []
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "paxFlightId": "111",
+        "first_name": "Cristiano",
+        "last_name": "Ronaldo",
+        "date_of_birth": "12/02/1991",
+        "gender": "Male",
+        "email_id": "cris@gmail.com",
+        "mobile_no": "9835472634",
+        "country": "In",
+        "seat_no": "",
+        "travel_document": {},
+        "wheelChair": "No",
+        "infant": "YES",
+        "status": "NC",
+        "params": {},
+        "special_meal": [
+          "Samosa",
+          "potatoes",
+          "wholegrain bread",
+          "boiled rice"
+        ],
+        "ancillary": [
+          "ExtraLegSpace",
+          "WindowSeat"
+        ],
+        "passport": "",
+        "address": "",
+        "flightShop": [
+          "Watches",
+          "Bags"
+        ]
+      },
+      {
+        "id": 2,
+        "paxFlightId": "111",
+        "first_name": "Leonel",
+        "last_name": "Messi",
+        "date_of_birth": "12/01/1980",
+        "gender": "Male",
+        "email_id": "messi@gmail.com",
+        "mobile_no": "6789876545",
+        "country": "Canada",
+        "seat_no": "3C",
+        "travel_document": {},
+        "wheelChair": "YES",
+        "infant": "No",
+        "status": "AC",
+        "special_meal": [
+          "egg white"
+        ],
+        "ancillary": [
+          "ExtraLegSpace",
+          "MiddleSeatxx"
+        ],
+        "passport": "EPR203945",
+        "address": "",
+        "flightShop": [
+          "slipper"
+        ]
+      },
+      {
+        "paxFlightId": "111",
+        "first_name": "Akash",
+        "last_name": "Trivedi",
+        "date_of_birth": "19/10/1994",
+        "gender": "Male",
+        "email_id": "akki@gmail.com",
+        "mobile_no": "756756754",
+        "seat_no": "4C",
+        "travel_document": "{}",
+        "wheelChair": "No",
+        "infant": "No",
+        "status": "AC",
+        "special_meal": [
+          "potatoes"
+        ],
+        "ancillary": [
+          "MiddleSeatxx",
+          "WindowSeat",
+          "SSR"
+        ],
+        "passport": "pass",
+        "id": 30,
+        "country": "pass",
+        "address": "",
+        "flightShop": []
+      },
+      {
+        "paxFlightId": "111",
+        "first_name": "Raja",
+        "last_name": "Kumar",
+        "date_of_birth": "19/08/1984",
+        "address": "",
+        "email_id": "raja@gmail.com",
+        "mobile_no": "90856907576",
+        "seat_no": "3D",
+        "travel_document": "{}",
+        "wheelChair": "No",
+        "infant": "YES",
+        "status": "AC",
+        "special_meal": [
+          "wholegrain bread",
+          "cottage cheese"
+        ],
+        "ancillary": [
+          "WindowSeat"
+        ],
+        "passport": "ewuriy38249rh",
+        "id": 34,
+        "flightShop": []
+      }
+    ],
     {
-      "paxFlightId": "333",
-      "first_name": "john",
-      "last_name": "mic",
-      "date_of_birth": "",
-      "address": "",
-      "email_id": "",
+      "paxFlightId": "222",
+      "first_name": "Uzumaki",
+      "last_name": "Naruto",
+      "date_of_birth": "10/02/2015",
+      "address": "Hidden Leaf Village",
+      "email_id": "khnoha@abc.com",
       "mobile_no": "",
-      "gender": "male",
-      "seat_no": "3A",
+      "gender": "Male",
+      "seat_no": "",
       "travel_document": "{}",
-      "wheelChair": "NO",
-      "infant": "NO",
-      "status": "AC",
+      "wheelChair": "YES",
+      "infant": "No",
+      "status": "NC",
       "special_meal": [],
       "ancillary": [],
       "flightShop": [],
       "passport": "",
-      "id": 42
+      "id": 345
+    },
+    {
+      "paxFlightId": "111",
+      "first_name": "Uzumaki",
+      "last_name": "Baruto",
+      "date_of_birth": "28/08/2020",
+      "address": "",
+      "email_id": "",
+      "mobile_no": "94939292",
+      "gender": "Male",
+      "seat_no": "",
+      "travel_document": "{}",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "NC",
+      "special_meal": [],
+      "ancillary": [],
+      "flightShop": [],
+      "passport": "",
+      "id": 349
+    },
+    {
+      "paxFlightId": "222",
+      "first_name": "Uchiha",
+      "last_name": "Madra",
+      "date_of_birth": "30/07/2014",
+      "address": "",
+      "email_id": "sixpath@madra.com",
+      "mobile_no": "",
+      "gender": "Male",
+      "seat_no": "",
+      "travel_document": "{}",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "NC",
+      "special_meal": [],
+      "ancillary": [],
+      "flightShop": [],
+      "passport": "",
+      "id": 350
+    },
+    {
+      "paxFlightId": "333",
+      "first_name": "Recardo",
+      "last_name": "kaka",
+      "date_of_birth": "03/08/2020",
+      "address": "",
+      "email_id": "",
+      "mobile_no": "8374793973",
+      "gender": "Male",
+      "seat_no": "1B",
+      "travel_document": "{}",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "AC",
+      "special_meal": [],
+      "ancillary": [],
+      "flightShop": [],
+      "passport": "ERUYYDD40IY",
+      "id": 351
+    },
+    {
+      "paxFlightId": "333",
+      "first_name": "mistuki",
+      "last_name": "snake",
+      "date_of_birth": "03/08/2020",
+      "address": "lab",
+      "email_id": "snake@orchimaru.com",
+      "mobile_no": "8374793944",
+      "gender": "Male",
+      "seat_no": "",
+      "travel_document": "{}",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "NC",
+      "special_meal": [],
+      "ancillary": [],
+      "flightShop": [],
+      "passport": "",
+      "id": 352
+    },
+    {
+      "paxFlightId": "333",
+      "first_name": "Aradhya",
+      "last_name": "Pandey",
+      "date_of_birth": "28/08/2020",
+      "address": "",
+      "email_id": "ap@gmail.com",
+      "mobile_no": "763563745",
+      "gender": "Male",
+      "seat_no": "4A",
+      "travel_document": "{}",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "AC",
+      "special_meal": [
+        "Maggie"
+      ],
+      "ancillary": [],
+      "flightShop": [],
+      "passport": "WEFS123432",
+      "id": 353
+    },
+    {
+      "paxFlightId": "111",
+      "first_name": "Sikamaru",
+      "last_name": "nara",
+      "date_of_birth": "29/08/2020",
+      "address": "nara",
+      "email_id": "nara@kohna.com",
+      "mobile_no": "",
+      "gender": "Male",
+      "seat_no": "",
+      "travel_document": "{}",
+      "wheelChair": "No",
+      "infant": "YES",
+      "status": "NC",
+      "special_meal": [],
+      "ancillary": [],
+      "flightShop": [],
+      "passport": "",
+      "id": 354
     }
   ],
   "flightListsJson": [
@@ -320,11 +589,34 @@
       "airline": "Air India G9",
       "departureStation": "BLR",
       "arrivalStation": "DEL",
-      "departureDate": "2019-11-27T23:30:00",
-      "arrivalDate": "2019-11-27T23:30:00",
-      "special_meals": ["Samosa", "pawBhaji"],
-      "ancillary": ["ExtraLegSpace", "WindowSeat", "MiddleSeatxx", "SSR"],
-      "flightShop": ["Watches", "T-shirts", "Bags", "kjasd"]
+      "departureDate": "24-12-2020 23:30:00 PM",
+      "arrivalDate": "24-12-2020 23:00:00 AM",
+      "special_meals": [
+        "Contains margarine",
+        "cottage cheese",
+        "egg white",
+        "boiled rice",
+        "potatoes",
+        "wheat",
+        "Fish fry",
+        "Maggie",
+        "Salt"
+      ],
+      "ancillary": [
+        "ExtraLegSpace",
+        "WindowSeat",
+        "MiddleSeatxx",
+        "Extra Language",
+        "language space"
+      ],
+      "flightShop": [
+        "Watches",
+        "T-shirts",
+        "Bags",
+        "Belt",
+        "Caps",
+        "Ring"
+      ]
     },
     {
       "id": "2",
@@ -333,11 +625,33 @@
       "airline": "Indigo AI",
       "departureStation": "SHJ",
       "arrivalStation": "DEL",
-      "departureDate": "2019-11-27T23:30:00",
-      "arrivalDate": "2019-11-27T23:30:00",
-      "special_meals": ["veg-meal", "Maggie"],
-      "ancillary": ["ExtraLegSpace", "WindowSeat", "MiddleSeat", "two seat"],
-      "flightShop": ["Watches", "T-shirts", "Bags", "Belt"]
+      "departureDate": "24-12-2020 03:30:00 AM",
+      "arrivalDate": "24-12-2020 02:30:00 AM",
+      "special_meals": [
+        "Contains margarine",
+        "cottage cheese",
+        "egg white",
+        "boiled rice",
+        "Burgers",
+        "chaats",
+        "Maggie"
+      ],
+      "ancillary": [
+        "ExtraLegSpace",
+        "WindowSeat",
+        "MiddleSeat",
+        "two seat",
+        "Extra laguage"
+      ],
+      "flightShop": [
+        "Watches",
+        "T-shirts",
+        "Bags",
+        "Belt",
+        "Caps",
+        "Jeans",
+        "Ring"
+      ]
     },
     {
       "id": "3",
@@ -346,20 +660,32 @@
       "airline": "Spice Jet J2",
       "departureStation": "HYD",
       "arrivalStation": "DEL",
-      "departureDate": "2019-11-27T23:30:00",
-      "arrivalDate": "2019-11-27T23:30:00",
+      "departureDate": "24-12-2020 09:50:00 AM",
+      "arrivalDate": "24-12-2020 08:30:00 AM",
       "special_meals": [
-        "Chicken masala in multigrain bread",
-        "Paneer masala in multigrain bread",
-        "chaats"
+        "wholegrain bread",
+        "cereals and fruit",
+        "pizza",
+        "Burgers",
+        "Maggie"
       ],
       "ancillary": [
         "ExtraLegSpace",
         "WindowSeat",
         "MiddleSeat",
-        "special Seat Belt"
+        "special Seat Belt",
+        "Extra laguage"
       ],
-      "flightShop": ["Watches", "T-shirtssssss", "Bags", "shoes"]
+      "flightShop": [
+        "Watches",
+        "T-shirts",
+        "Bags",
+        "Belt",
+        "Caps",
+        "Jeans",
+        "shoes",
+        "Ring"
+      ]
     }
   ],
   "travelDocumentJson": [
@@ -387,7 +713,7 @@
   "seat": [
     {
       "seatNo": "1A",
-      "paxId": 0,
+      "passengerId": 0,
       "id": 1,
       "infantId": 0,
       "wheelChairId": 0,
@@ -395,31 +721,31 @@
     },
     {
       "seatNo": "1B",
-      "paxId": 33,
+      "passengerId": 351,
       "id": 2,
-      "infantId": 33,
-      "wheelChairId": 0,
-      "mealId": 0
-    },
-    {
-      "seatNo": "1C",
-      "paxId": 3,
-      "id": 3,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
     },
     {
+      "seatNo": "1C",
+      "passengerId": 2,
+      "id": 3,
+      "infantId": 0,
+      "wheelChairId": 2,
+      "mealId": 2
+    },
+    {
       "id": 4,
       "seatNo": "1D",
-      "paxId": 1,
-      "infantId": 1,
+      "passengerId": 0,
+      "infantId": 0,
       "wheelChairId": 0,
-      "mealId": 1
+      "mealId": 0
     },
     {
       "seatNo": "1E",
-      "paxId": 0,
+      "passengerId": 0,
       "id": 5,
       "infantId": 0,
       "wheelChairId": 0,
@@ -428,22 +754,22 @@
     {
       "id": 6,
       "seatNo": "1F",
-      "paxId": 0,
+      "passengerId": 29,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
     },
     {
       "seatNo": "2A",
-      "paxId": 30,
+      "passengerId": 342,
       "id": 7,
-      "infantId": 0,
+      "infantId": 342,
       "wheelChairId": 0,
-      "mealId": 30
+      "mealId": 0
     },
     {
       "seatNo": "2B",
-      "paxId": 8,
+      "passengerId": 0,
       "id": 8,
       "infantId": 0,
       "wheelChairId": 0,
@@ -451,24 +777,24 @@
     },
     {
       "seatNo": "2C",
-      "paxId": 9,
+      "passengerId": 1,
       "id": 9,
+      "infantId": 1,
+      "wheelChairId": 0,
+      "mealId": 1
+    },
+    {
+      "id": 10,
+      "seatNo": "2D",
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
     },
     {
-      "id": 10,
-      "seatNo": "2D",
-      "paxId": 0,
-      "infantId": 0,
-      "wheelChairId": 2,
-      "mealId": 0
-    },
-    {
       "id": 11,
       "seatNo": "2E",
-      "paxId": 9,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -476,47 +802,47 @@
     {
       "id": 12,
       "seatNo": "2F",
-      "paxId": 0,
-      "infantId": 0,
+      "passengerId": 34,
+      "infantId": 34,
       "wheelChairId": 0,
-      "mealId": 0
+      "mealId": 34
     },
     {
       "id": 13,
       "seatNo": "3A",
-      "paxId": 42,
-      "infantId": 0,
+      "passengerId": 333,
+      "infantId": 333,
       "wheelChairId": 0,
       "mealId": 0
     },
     {
       "seatNo": "3B",
-      "paxId": 1,
+      "passengerId": 0,
       "id": 14,
-      "infantId": 1,
-      "wheelChairId": 0,
-      "mealId": 0
-    },
-    {
-      "seatNo": "3C",
-      "paxId": 0,
-      "id": 15,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
     },
     {
-      "id": 16,
-      "seatNo": "3D",
-      "paxId": 32,
+      "seatNo": "3C",
+      "passengerId": 32,
+      "id": 15,
       "infantId": 32,
       "wheelChairId": 0,
       "mealId": 32
     },
     {
+      "id": 16,
+      "seatNo": "3D",
+      "passengerId": 331,
+      "infantId": 331,
+      "wheelChairId": 0,
+      "mealId": 331
+    },
+    {
       "id": 17,
       "seatNo": "3E",
-      "paxId": 0,
+      "passengerId": 346,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -524,22 +850,22 @@
     {
       "id": 18,
       "seatNo": "3F",
-      "paxId": 29,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
     },
     {
       "seatNo": "4A",
-      "paxId": 36,
+      "passengerId": 353,
       "id": 19,
       "infantId": 0,
       "wheelChairId": 0,
-      "mealId": 36
+      "mealId": 353
     },
     {
       "seatNo": "4B",
-      "paxId": 0,
+      "passengerId": 0,
       "id": 20,
       "infantId": 0,
       "wheelChairId": 0,
@@ -547,7 +873,7 @@
     },
     {
       "seatNo": "4C",
-      "paxId": 0,
+      "passengerId": 0,
       "id": 21,
       "infantId": 0,
       "wheelChairId": 0,
@@ -556,15 +882,15 @@
     {
       "id": 22,
       "seatNo": "4D",
-      "paxId": 31,
-      "infantId": 31,
+      "passengerId": 39,
+      "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
     },
     {
       "id": 23,
       "seatNo": "4E",
-      "paxId": 0,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -572,7 +898,7 @@
     {
       "id": 24,
       "seatNo": "4F",
-      "paxId": 7,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -580,14 +906,14 @@
     {
       "id": 25,
       "seatNo": "5A",
-      "paxId": 39,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
     },
     {
       "seatNo": "5B",
-      "paxId": 9,
+      "passengerId": 0,
       "id": 26,
       "infantId": 0,
       "wheelChairId": 0,
@@ -595,7 +921,7 @@
     },
     {
       "seatNo": "5C",
-      "paxId": 0,
+      "passengerId": 0,
       "id": 27,
       "infantId": 0,
       "wheelChairId": 0,
@@ -604,15 +930,15 @@
     {
       "id": 28,
       "seatNo": "5D",
-      "paxId": 34,
-      "infantId": 34,
-      "wheelChairId": 34,
-      "mealId": 34
+      "passengerId": 0,
+      "infantId": 0,
+      "wheelChairId": 0,
+      "mealId": 0
     },
     {
       "id": 29,
       "seatNo": "5E",
-      "paxId": 0,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -620,7 +946,7 @@
     {
       "id": 30,
       "seatNo": "5F",
-      "paxId": 39,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -628,14 +954,14 @@
     {
       "id": 31,
       "seatNo": "6A",
-      "paxId": 0,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
     },
     {
       "seatNo": "6B",
-      "paxId": 20,
+      "passengerId": 0,
       "id": 32,
       "infantId": 0,
       "wheelChairId": 0,
@@ -643,7 +969,7 @@
     },
     {
       "seatNo": "6C",
-      "paxId": 0,
+      "passengerId": 0,
       "id": 33,
       "infantId": 0,
       "wheelChairId": 0,
@@ -652,7 +978,7 @@
     {
       "id": 34,
       "seatNo": "6D",
-      "paxId": 35,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -660,7 +986,7 @@
     {
       "id": 35,
       "seatNo": "6E",
-      "paxId": 0,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -668,15 +994,15 @@
     {
       "id": 36,
       "seatNo": "6F",
-      "paxId": 38,
-      "infantId": 38,
-      "wheelChairId": 38,
-      "mealId": 38
+      "passengerId": 0,
+      "infantId": 0,
+      "wheelChairId": 0,
+      "mealId": 0
     },
     {
       "id": 37,
       "seatNo": "7A",
-      "paxId": 0,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -684,7 +1010,7 @@
     {
       "id": 38,
       "seatNo": "7B",
-      "paxId": 0,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -692,7 +1018,7 @@
     {
       "id": 39,
       "seatNo": "7C",
-      "paxId": 17,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -700,7 +1026,7 @@
     {
       "id": 40,
       "seatNo": "7D",
-      "paxId": 0,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -708,7 +1034,7 @@
     {
       "id": 41,
       "seatNo": "7E",
-      "paxId": 0,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0
@@ -716,7 +1042,7 @@
     {
       "id": 42,
       "seatNo": "7F",
-      "paxId": 0,
+      "passengerId": 0,
       "infantId": 0,
       "wheelChairId": 0,
       "mealId": 0

@@ -1,0 +1,1637 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Component renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Login />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="base-container"
+>
+        <form
+                onSubmit={undefined}
+        >
+                <div
+                        className="header"
+                >
+                        Login
+                </div>
+                <div
+                        className="content"
+                >
+                        <div
+                                className="image"
+                        >
+                                <img
+                                        alt="login"
+                                        src="login.svg"
+                                />
+                        </div>
+                        <div
+                                className="form"
+                        >
+                                <div
+                                        className="form-group"
+                                >
+                                        <label
+                                                htmlFor="username"
+                                        >
+                                                Username
+                                        </label>
+                                        <input
+                                                className="form-control"
+                                                id="email"
+                                                name="email"
+                                                onChange={undefined}
+                                                placeholder="email"
+                                                type="email"
+                                                value={undefined}
+                                        />
+                                </div>
+                                <div
+                                        className="form-group"
+                                >
+                                        <label
+                                                htmlFor="password"
+                                        >
+                                                Password
+                                        </label>
+                                        <input
+                                                className="form-control"
+                                                id="password"
+                                                name="password"
+                                                onChange={undefined}
+                                                placeholder="password"
+                                                type="password"
+                                                value={undefined}
+                                        />
+                                </div>
+                        </div>
+                </div>
+                <div
+                        className="footer"
+                >
+                        <button
+                                className="btn-btn"
+                                type="submit"
+                        >
+                                Login
+                        </button>
+                </div>
+                <div
+                        style={
+                                Object {
+                                        "marginTop": "10px",
+                                      }
+                        }
+                >
+                        <y
+                                accessType="online"
+                                buttonText="Sign in with Google"
+                                clientId="909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com"
+                                cookiePolicy="single_host_origin"
+                                disabledStyle={
+                                        Object {
+                                                "opacity": 0.6,
+                                              }
+                                }
+                                fetchBasicProfile={true}
+                                icon={true}
+                                isSignedIn={false}
+                                onFailure={undefined}
+                                onRequest={[Function]}
+                                onSuccess={undefined}
+                                prompt=""
+                                scope="profile email"
+                                tag="button"
+                                theme="light"
+                                type="button"
+                                uxMode="popup"
+                        />
+                </div>
+                <div
+                        style={
+                                Object {
+                                        "marginTop": "10px",
+                                      }
+                        }
+                >
+                        <t
+                                appId="280980003140667"
+                                callback={undefined}
+                                cssClass="kep-login-facebook"
+                                fields="name,email,picture"
+                                size="metro"
+                                tag="button"
+                                textButton="Login with Facebook"
+                                typeButton="button"
+                        />
+                </div>
+        </form>
+</div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          null,
+          <form
+            onSubmit={undefined}
+>
+            <div
+                        className="header"
+            >
+                        Login
+            </div>
+            <div
+                        className="content"
+            >
+                        <div
+                                    className="image"
+                        >
+                                    <img
+                                                alt="login"
+                                                src="login.svg"
+                                    />
+                        </div>
+                        <div
+                                    className="form"
+                        >
+                                    <div
+                                                className="form-group"
+                                    >
+                                                <label
+                                                            htmlFor="username"
+                                                >
+                                                            Username
+                                                </label>
+                                                <input
+                                                            className="form-control"
+                                                            id="email"
+                                                            name="email"
+                                                            onChange={undefined}
+                                                            placeholder="email"
+                                                            type="email"
+                                                            value={undefined}
+                                                />
+                                    </div>
+                                    <div
+                                                className="form-group"
+                                    >
+                                                <label
+                                                            htmlFor="password"
+                                                >
+                                                            Password
+                                                </label>
+                                                <input
+                                                            className="form-control"
+                                                            id="password"
+                                                            name="password"
+                                                            onChange={undefined}
+                                                            placeholder="password"
+                                                            type="password"
+                                                            value={undefined}
+                                                />
+                                    </div>
+                        </div>
+            </div>
+            <div
+                        className="footer"
+            >
+                        <button
+                                    className="btn-btn"
+                                    type="submit"
+                        >
+                                    Login
+                        </button>
+            </div>
+            <div
+                        style={
+                                    Object {
+                                                "marginTop": "10px",
+                                              }
+                        }
+            >
+                        <y
+                                    accessType="online"
+                                    buttonText="Sign in with Google"
+                                    clientId="909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com"
+                                    cookiePolicy="single_host_origin"
+                                    disabledStyle={
+                                                Object {
+                                                            "opacity": 0.6,
+                                                          }
+                                    }
+                                    fetchBasicProfile={true}
+                                    icon={true}
+                                    isSignedIn={false}
+                                    onFailure={undefined}
+                                    onRequest={[Function]}
+                                    onSuccess={undefined}
+                                    prompt=""
+                                    scope="profile email"
+                                    tag="button"
+                                    theme="light"
+                                    type="button"
+                                    uxMode="popup"
+                        />
+            </div>
+            <div
+                        style={
+                                    Object {
+                                                "marginTop": "10px",
+                                              }
+                        }
+            >
+                        <t
+                                    appId="280980003140667"
+                                    callback={undefined}
+                                    cssClass="kep-login-facebook"
+                                    fields="name,email,picture"
+                                    size="metro"
+                                    tag="button"
+                                    textButton="Login with Facebook"
+                                    typeButton="button"
+                        />
+            </div>
+</form>,
+        ],
+        "className": "base-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="header"
+>
+                Login
+</div>,
+              <div
+                className="content"
+>
+                <div
+                                className="image"
+                >
+                                <img
+                                                alt="login"
+                                                src="login.svg"
+                                />
+                </div>
+                <div
+                                className="form"
+                >
+                                <div
+                                                className="form-group"
+                                >
+                                                <label
+                                                                htmlFor="username"
+                                                >
+                                                                Username
+                                                </label>
+                                                <input
+                                                                className="form-control"
+                                                                id="email"
+                                                                name="email"
+                                                                onChange={undefined}
+                                                                placeholder="email"
+                                                                type="email"
+                                                                value={undefined}
+                                                />
+                                </div>
+                                <div
+                                                className="form-group"
+                                >
+                                                <label
+                                                                htmlFor="password"
+                                                >
+                                                                Password
+                                                </label>
+                                                <input
+                                                                className="form-control"
+                                                                id="password"
+                                                                name="password"
+                                                                onChange={undefined}
+                                                                placeholder="password"
+                                                                type="password"
+                                                                value={undefined}
+                                                />
+                                </div>
+                </div>
+</div>,
+              <div
+                className="footer"
+>
+                <button
+                                className="btn-btn"
+                                type="submit"
+                >
+                                Login
+                </button>
+</div>,
+              <div
+                style={
+                                Object {
+                                                "marginTop": "10px",
+                                              }
+                }
+>
+                <y
+                                accessType="online"
+                                buttonText="Sign in with Google"
+                                clientId="909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com"
+                                cookiePolicy="single_host_origin"
+                                disabledStyle={
+                                                Object {
+                                                                "opacity": 0.6,
+                                                              }
+                                }
+                                fetchBasicProfile={true}
+                                icon={true}
+                                isSignedIn={false}
+                                onFailure={undefined}
+                                onRequest={[Function]}
+                                onSuccess={undefined}
+                                prompt=""
+                                scope="profile email"
+                                tag="button"
+                                theme="light"
+                                type="button"
+                                uxMode="popup"
+                />
+</div>,
+              <div
+                style={
+                                Object {
+                                                "marginTop": "10px",
+                                              }
+                }
+>
+                <t
+                                appId="280980003140667"
+                                callback={undefined}
+                                cssClass="kep-login-facebook"
+                                fields="name,email,picture"
+                                size="metro"
+                                tag="button"
+                                textButton="Login with Facebook"
+                                typeButton="button"
+                />
+</div>,
+            ],
+            "onSubmit": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Login",
+                "className": "header",
+              },
+              "ref": null,
+              "rendered": "Login",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="image"
+>
+                    <img
+                                        alt="login"
+                                        src="login.svg"
+                    />
+</div>,
+                  <div
+                    className="form"
+>
+                    <div
+                                        className="form-group"
+                    >
+                                        <label
+                                                            htmlFor="username"
+                                        >
+                                                            Username
+                                        </label>
+                                        <input
+                                                            className="form-control"
+                                                            id="email"
+                                                            name="email"
+                                                            onChange={undefined}
+                                                            placeholder="email"
+                                                            type="email"
+                                                            value={undefined}
+                                        />
+                    </div>
+                    <div
+                                        className="form-group"
+                    >
+                                        <label
+                                                            htmlFor="password"
+                                        >
+                                                            Password
+                                        </label>
+                                        <input
+                                                            className="form-control"
+                                                            id="password"
+                                                            name="password"
+                                                            onChange={undefined}
+                                                            placeholder="password"
+                                                            type="password"
+                                                            value={undefined}
+                                        />
+                    </div>
+</div>,
+                ],
+                "className": "content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="login"
+                      src="login.svg"
+/>,
+                    "className": "image",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "login",
+                      "src": "login.svg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="form-group"
+>
+                        <label
+                                                htmlFor="username"
+                        >
+                                                Username
+                        </label>
+                        <input
+                                                className="form-control"
+                                                id="email"
+                                                name="email"
+                                                onChange={undefined}
+                                                placeholder="email"
+                                                type="email"
+                                                value={undefined}
+                        />
+</div>,
+                      <div
+                        className="form-group"
+>
+                        <label
+                                                htmlFor="password"
+                        >
+                                                Password
+                        </label>
+                        <input
+                                                className="form-control"
+                                                id="password"
+                                                name="password"
+                                                onChange={undefined}
+                                                placeholder="password"
+                                                type="password"
+                                                value={undefined}
+                        />
+</div>,
+                    ],
+                    "className": "form",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <label
+                            htmlFor="username"
+>
+                            Username
+</label>,
+                          <input
+                            className="form-control"
+                            id="email"
+                            name="email"
+                            onChange={undefined}
+                            placeholder="email"
+                            type="email"
+                            value={undefined}
+/>,
+                        ],
+                        "className": "form-group",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Username",
+                            "htmlFor": "username",
+                          },
+                          "ref": null,
+                          "rendered": "Username",
+                          "type": "label",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "form-control",
+                            "id": "email",
+                            "name": "email",
+                            "onChange": undefined,
+                            "placeholder": "email",
+                            "type": "email",
+                            "value": undefined,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <label
+                            htmlFor="password"
+>
+                            Password
+</label>,
+                          <input
+                            className="form-control"
+                            id="password"
+                            name="password"
+                            onChange={undefined}
+                            placeholder="password"
+                            type="password"
+                            value={undefined}
+/>,
+                        ],
+                        "className": "form-group",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Password",
+                            "htmlFor": "password",
+                          },
+                          "ref": null,
+                          "rendered": "Password",
+                          "type": "label",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "form-control",
+                            "id": "password",
+                            "name": "password",
+                            "onChange": undefined,
+                            "placeholder": "password",
+                            "type": "password",
+                            "value": undefined,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  className="btn-btn"
+                  type="submit"
+>
+                  Login
+</button>,
+                "className": "footer",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Login",
+                  "className": "btn-btn",
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": "Login",
+                "type": "button",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <y
+                  accessType="online"
+                  buttonText="Sign in with Google"
+                  clientId="909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com"
+                  cookiePolicy="single_host_origin"
+                  disabledStyle={
+                                    Object {
+                                                      "opacity": 0.6,
+                                                    }
+                  }
+                  fetchBasicProfile={true}
+                  icon={true}
+                  isSignedIn={false}
+                  onFailure={undefined}
+                  onRequest={[Function]}
+                  onSuccess={undefined}
+                  prompt=""
+                  scope="profile email"
+                  tag="button"
+                  theme="light"
+                  type="button"
+                  uxMode="popup"
+/>,
+                "style": Object {
+                  "marginTop": "10px",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "accessType": "online",
+                  "buttonText": "Sign in with Google",
+                  "clientId": "909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com",
+                  "cookiePolicy": "single_host_origin",
+                  "disabledStyle": Object {
+                    "opacity": 0.6,
+                  },
+                  "fetchBasicProfile": true,
+                  "icon": true,
+                  "isSignedIn": false,
+                  "onFailure": undefined,
+                  "onRequest": [Function],
+                  "onSuccess": undefined,
+                  "prompt": "",
+                  "scope": "profile email",
+                  "tag": "button",
+                  "theme": "light",
+                  "type": "button",
+                  "uxMode": "popup",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <t
+                  appId="280980003140667"
+                  callback={undefined}
+                  cssClass="kep-login-facebook"
+                  fields="name,email,picture"
+                  size="metro"
+                  tag="button"
+                  textButton="Login with Facebook"
+                  typeButton="button"
+/>,
+                "style": Object {
+                  "marginTop": "10px",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "appId": "280980003140667",
+                  "callback": undefined,
+                  "cssClass": "kep-login-facebook",
+                  "fields": "name,email,picture",
+                  "size": "metro",
+                  "tag": "button",
+                  "textButton": "Login with Facebook",
+                  "typeButton": "button",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="base-container"
+>
+          <form
+                    onSubmit={undefined}
+          >
+                    <div
+                              className="header"
+                    >
+                              Login
+                    </div>
+                    <div
+                              className="content"
+                    >
+                              <div
+                                        className="image"
+                              >
+                                        <img
+                                                  alt="login"
+                                                  src="login.svg"
+                                        />
+                              </div>
+                              <div
+                                        className="form"
+                              >
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <label
+                                                            htmlFor="username"
+                                                  >
+                                                            Username
+                                                  </label>
+                                                  <input
+                                                            className="form-control"
+                                                            id="email"
+                                                            name="email"
+                                                            onChange={undefined}
+                                                            placeholder="email"
+                                                            type="email"
+                                                            value={undefined}
+                                                  />
+                                        </div>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <label
+                                                            htmlFor="password"
+                                                  >
+                                                            Password
+                                                  </label>
+                                                  <input
+                                                            className="form-control"
+                                                            id="password"
+                                                            name="password"
+                                                            onChange={undefined}
+                                                            placeholder="password"
+                                                            type="password"
+                                                            value={undefined}
+                                                  />
+                                        </div>
+                              </div>
+                    </div>
+                    <div
+                              className="footer"
+                    >
+                              <button
+                                        className="btn-btn"
+                                        type="submit"
+                              >
+                                        Login
+                              </button>
+                    </div>
+                    <div
+                              style={
+                                        Object {
+                                                  "marginTop": "10px",
+                                                }
+                              }
+                    >
+                              <y
+                                        accessType="online"
+                                        buttonText="Sign in with Google"
+                                        clientId="909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com"
+                                        cookiePolicy="single_host_origin"
+                                        disabledStyle={
+                                                  Object {
+                                                            "opacity": 0.6,
+                                                          }
+                                        }
+                                        fetchBasicProfile={true}
+                                        icon={true}
+                                        isSignedIn={false}
+                                        onFailure={undefined}
+                                        onRequest={[Function]}
+                                        onSuccess={undefined}
+                                        prompt=""
+                                        scope="profile email"
+                                        tag="button"
+                                        theme="light"
+                                        type="button"
+                                        uxMode="popup"
+                              />
+                    </div>
+                    <div
+                              style={
+                                        Object {
+                                                  "marginTop": "10px",
+                                                }
+                              }
+                    >
+                              <t
+                                        appId="280980003140667"
+                                        callback={undefined}
+                                        cssClass="kep-login-facebook"
+                                        fields="name,email,picture"
+                                        size="metro"
+                                        tag="button"
+                                        textButton="Login with Facebook"
+                                        typeButton="button"
+                              />
+                    </div>
+          </form>
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            null,
+            <form
+              onSubmit={undefined}
+>
+              <div
+                            className="header"
+              >
+                            Login
+              </div>
+              <div
+                            className="content"
+              >
+                            <div
+                                          className="image"
+                            >
+                                          <img
+                                                        alt="login"
+                                                        src="login.svg"
+                                          />
+                            </div>
+                            <div
+                                          className="form"
+                            >
+                                          <div
+                                                        className="form-group"
+                                          >
+                                                        <label
+                                                                      htmlFor="username"
+                                                        >
+                                                                      Username
+                                                        </label>
+                                                        <input
+                                                                      className="form-control"
+                                                                      id="email"
+                                                                      name="email"
+                                                                      onChange={undefined}
+                                                                      placeholder="email"
+                                                                      type="email"
+                                                                      value={undefined}
+                                                        />
+                                          </div>
+                                          <div
+                                                        className="form-group"
+                                          >
+                                                        <label
+                                                                      htmlFor="password"
+                                                        >
+                                                                      Password
+                                                        </label>
+                                                        <input
+                                                                      className="form-control"
+                                                                      id="password"
+                                                                      name="password"
+                                                                      onChange={undefined}
+                                                                      placeholder="password"
+                                                                      type="password"
+                                                                      value={undefined}
+                                                        />
+                                          </div>
+                            </div>
+              </div>
+              <div
+                            className="footer"
+              >
+                            <button
+                                          className="btn-btn"
+                                          type="submit"
+                            >
+                                          Login
+                            </button>
+              </div>
+              <div
+                            style={
+                                          Object {
+                                                        "marginTop": "10px",
+                                                      }
+                            }
+              >
+                            <y
+                                          accessType="online"
+                                          buttonText="Sign in with Google"
+                                          clientId="909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com"
+                                          cookiePolicy="single_host_origin"
+                                          disabledStyle={
+                                                        Object {
+                                                                      "opacity": 0.6,
+                                                                    }
+                                          }
+                                          fetchBasicProfile={true}
+                                          icon={true}
+                                          isSignedIn={false}
+                                          onFailure={undefined}
+                                          onRequest={[Function]}
+                                          onSuccess={undefined}
+                                          prompt=""
+                                          scope="profile email"
+                                          tag="button"
+                                          theme="light"
+                                          type="button"
+                                          uxMode="popup"
+                            />
+              </div>
+              <div
+                            style={
+                                          Object {
+                                                        "marginTop": "10px",
+                                                      }
+                            }
+              >
+                            <t
+                                          appId="280980003140667"
+                                          callback={undefined}
+                                          cssClass="kep-login-facebook"
+                                          fields="name,email,picture"
+                                          size="metro"
+                                          tag="button"
+                                          textButton="Login with Facebook"
+                                          typeButton="button"
+                            />
+              </div>
+</form>,
+          ],
+          "className": "base-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="header"
+>
+                  Login
+</div>,
+                <div
+                  className="content"
+>
+                  <div
+                                    className="image"
+                  >
+                                    <img
+                                                      alt="login"
+                                                      src="login.svg"
+                                    />
+                  </div>
+                  <div
+                                    className="form"
+                  >
+                                    <div
+                                                      className="form-group"
+                                    >
+                                                      <label
+                                                                        htmlFor="username"
+                                                      >
+                                                                        Username
+                                                      </label>
+                                                      <input
+                                                                        className="form-control"
+                                                                        id="email"
+                                                                        name="email"
+                                                                        onChange={undefined}
+                                                                        placeholder="email"
+                                                                        type="email"
+                                                                        value={undefined}
+                                                      />
+                                    </div>
+                                    <div
+                                                      className="form-group"
+                                    >
+                                                      <label
+                                                                        htmlFor="password"
+                                                      >
+                                                                        Password
+                                                      </label>
+                                                      <input
+                                                                        className="form-control"
+                                                                        id="password"
+                                                                        name="password"
+                                                                        onChange={undefined}
+                                                                        placeholder="password"
+                                                                        type="password"
+                                                                        value={undefined}
+                                                      />
+                                    </div>
+                  </div>
+</div>,
+                <div
+                  className="footer"
+>
+                  <button
+                                    className="btn-btn"
+                                    type="submit"
+                  >
+                                    Login
+                  </button>
+</div>,
+                <div
+                  style={
+                                    Object {
+                                                      "marginTop": "10px",
+                                                    }
+                  }
+>
+                  <y
+                                    accessType="online"
+                                    buttonText="Sign in with Google"
+                                    clientId="909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com"
+                                    cookiePolicy="single_host_origin"
+                                    disabledStyle={
+                                                      Object {
+                                                                        "opacity": 0.6,
+                                                                      }
+                                    }
+                                    fetchBasicProfile={true}
+                                    icon={true}
+                                    isSignedIn={false}
+                                    onFailure={undefined}
+                                    onRequest={[Function]}
+                                    onSuccess={undefined}
+                                    prompt=""
+                                    scope="profile email"
+                                    tag="button"
+                                    theme="light"
+                                    type="button"
+                                    uxMode="popup"
+                  />
+</div>,
+                <div
+                  style={
+                                    Object {
+                                                      "marginTop": "10px",
+                                                    }
+                  }
+>
+                  <t
+                                    appId="280980003140667"
+                                    callback={undefined}
+                                    cssClass="kep-login-facebook"
+                                    fields="name,email,picture"
+                                    size="metro"
+                                    tag="button"
+                                    textButton="Login with Facebook"
+                                    typeButton="button"
+                  />
+</div>,
+              ],
+              "onSubmit": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Login",
+                  "className": "header",
+                },
+                "ref": null,
+                "rendered": "Login",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="image"
+>
+                      <img
+                                            alt="login"
+                                            src="login.svg"
+                      />
+</div>,
+                    <div
+                      className="form"
+>
+                      <div
+                                            className="form-group"
+                      >
+                                            <label
+                                                                  htmlFor="username"
+                                            >
+                                                                  Username
+                                            </label>
+                                            <input
+                                                                  className="form-control"
+                                                                  id="email"
+                                                                  name="email"
+                                                                  onChange={undefined}
+                                                                  placeholder="email"
+                                                                  type="email"
+                                                                  value={undefined}
+                                            />
+                      </div>
+                      <div
+                                            className="form-group"
+                      >
+                                            <label
+                                                                  htmlFor="password"
+                                            >
+                                                                  Password
+                                            </label>
+                                            <input
+                                                                  className="form-control"
+                                                                  id="password"
+                                                                  name="password"
+                                                                  onChange={undefined}
+                                                                  placeholder="password"
+                                                                  type="password"
+                                                                  value={undefined}
+                                            />
+                      </div>
+</div>,
+                  ],
+                  "className": "content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="login"
+                        src="login.svg"
+/>,
+                      "className": "image",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "login",
+                        "src": "login.svg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="form-group"
+>
+                          <label
+                                                    htmlFor="username"
+                          >
+                                                    Username
+                          </label>
+                          <input
+                                                    className="form-control"
+                                                    id="email"
+                                                    name="email"
+                                                    onChange={undefined}
+                                                    placeholder="email"
+                                                    type="email"
+                                                    value={undefined}
+                          />
+</div>,
+                        <div
+                          className="form-group"
+>
+                          <label
+                                                    htmlFor="password"
+                          >
+                                                    Password
+                          </label>
+                          <input
+                                                    className="form-control"
+                                                    id="password"
+                                                    name="password"
+                                                    onChange={undefined}
+                                                    placeholder="password"
+                                                    type="password"
+                                                    value={undefined}
+                          />
+</div>,
+                      ],
+                      "className": "form",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <label
+                              htmlFor="username"
+>
+                              Username
+</label>,
+                            <input
+                              className="form-control"
+                              id="email"
+                              name="email"
+                              onChange={undefined}
+                              placeholder="email"
+                              type="email"
+                              value={undefined}
+/>,
+                          ],
+                          "className": "form-group",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Username",
+                              "htmlFor": "username",
+                            },
+                            "ref": null,
+                            "rendered": "Username",
+                            "type": "label",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "form-control",
+                              "id": "email",
+                              "name": "email",
+                              "onChange": undefined,
+                              "placeholder": "email",
+                              "type": "email",
+                              "value": undefined,
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "input",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <label
+                              htmlFor="password"
+>
+                              Password
+</label>,
+                            <input
+                              className="form-control"
+                              id="password"
+                              name="password"
+                              onChange={undefined}
+                              placeholder="password"
+                              type="password"
+                              value={undefined}
+/>,
+                          ],
+                          "className": "form-group",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Password",
+                              "htmlFor": "password",
+                            },
+                            "ref": null,
+                            "rendered": "Password",
+                            "type": "label",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "form-control",
+                              "id": "password",
+                              "name": "password",
+                              "onChange": undefined,
+                              "placeholder": "password",
+                              "type": "password",
+                              "value": undefined,
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "input",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    className="btn-btn"
+                    type="submit"
+>
+                    Login
+</button>,
+                  "className": "footer",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Login",
+                    "className": "btn-btn",
+                    "type": "submit",
+                  },
+                  "ref": null,
+                  "rendered": "Login",
+                  "type": "button",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <y
+                    accessType="online"
+                    buttonText="Sign in with Google"
+                    clientId="909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com"
+                    cookiePolicy="single_host_origin"
+                    disabledStyle={
+                                        Object {
+                                                            "opacity": 0.6,
+                                                          }
+                    }
+                    fetchBasicProfile={true}
+                    icon={true}
+                    isSignedIn={false}
+                    onFailure={undefined}
+                    onRequest={[Function]}
+                    onSuccess={undefined}
+                    prompt=""
+                    scope="profile email"
+                    tag="button"
+                    theme="light"
+                    type="button"
+                    uxMode="popup"
+/>,
+                  "style": Object {
+                    "marginTop": "10px",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "accessType": "online",
+                    "buttonText": "Sign in with Google",
+                    "clientId": "909754163994-7dlbkq7072a0e0a06n6d02tof7dulie2.apps.googleusercontent.com",
+                    "cookiePolicy": "single_host_origin",
+                    "disabledStyle": Object {
+                      "opacity": 0.6,
+                    },
+                    "fetchBasicProfile": true,
+                    "icon": true,
+                    "isSignedIn": false,
+                    "onFailure": undefined,
+                    "onRequest": [Function],
+                    "onSuccess": undefined,
+                    "prompt": "",
+                    "scope": "profile email",
+                    "tag": "button",
+                    "theme": "light",
+                    "type": "button",
+                    "uxMode": "popup",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <t
+                    appId="280980003140667"
+                    callback={undefined}
+                    cssClass="kep-login-facebook"
+                    fields="name,email,picture"
+                    size="metro"
+                    tag="button"
+                    textButton="Login with Facebook"
+                    typeButton="button"
+/>,
+                  "style": Object {
+                    "marginTop": "10px",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "appId": "280980003140667",
+                    "callback": undefined,
+                    "cssClass": "kep-login-facebook",
+                    "fields": "name,email,picture",
+                    "size": "metro",
+                    "tag": "button",
+                    "textButton": "Login with Facebook",
+                    "typeButton": "button",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "form",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
